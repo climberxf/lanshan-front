@@ -15,9 +15,9 @@ butt0.addEventListener('click',function(){
     newone.appendChild(butt2)
 
     newone.className='box2'
-    butt1.innerText ="√"
+    butt1.innerText ="√"//增加删除线
     butt1.onclick=finish
-    butt2.innerText ='X'
+    butt2.innerText ='X'//删除文本节点
     butt2.onclick=delete1
     butt1.className="button1"
     butt2.className="button2"
